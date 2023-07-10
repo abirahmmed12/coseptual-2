@@ -1,0 +1,162 @@
+.head{
+    display: flex;
+    background-color: darkgray;
+    justify-content: space-between;
+    padding: 20px;
+}
+.manue > ul{
+    display: flex;
+    gap: 10px;
+
+}
+ul >li{
+    list-style: none;
+}
+.banner{
+    height: 100vh;
+    background-image: url("/style/asset/image/background.jpg");
+    
+    background-size: cover;
+    text-align: center;
+   
+    
+   display: flex;
+   align-items: center;
+    
+}
+.text{
+    width: 60%;
+    margin: auto;
+}
+.pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    
+ 
+}
+.profile{
+    display: flex;
+    gap: 10px;
+    border-right: 2px solid red;
+    padding: 20px;
+}
+.info{
+    display: flex;
+    gap: 70px;
+   
+}
+.service{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.icon{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+.boxes{
+    display: flex;
+    gap: 60px;
+}
+.allin{
+    text-align: center;
+}
+.btn{
+    height: 70px;
+    width: 150px;
+ background-color: red;
+ color: white;
+ border-radius: 10px;
+}
+    .text{
+        font-size: larger;
+       
+    }
+    .btm{
+        border: none;
+        height: 70px;
+    width: 100px;
+    border-radius: 10px;
+    }
+.spesi{
+    color: red;
+}
+.serv{
+    width: 60%;
+}
+.contact{
+  
+    
+
+
+}
+.phn{
+  height: 60px;
+  width: 70px;
+}
+.cal{
+    display: flex;
+}
+.sec{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    padding: 60px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: -30px;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+.pr{
+    width: 70%;
+}
+.btl{
+    height: 70px;
+    width: 150px;
+ background-color:white;
+ 
+ border-radius: 10px;
+margin-right: 60px;
+}
+.card{
+    width: 300px;
+    height: 400px;
+   box-shadow: 4px 3px 5px gray;
+   border-radius: 5px;
+   text-align: center;
+}
+.pics{
+    width: 100%;
+    border-radius: 5px ;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.last{
+    text-align: center;
+    font-size: 100px;
+}
+.footer{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
